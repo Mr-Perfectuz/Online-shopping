@@ -15,7 +15,7 @@ const Title = styled.h1`
   margin-bottom: 20px;
 `;
 
-const Desc = styled.div`
+const Des = styled.div`
   font-size: 24px;
   font-weight: 300;
   margin-bottom: 20px;
@@ -50,12 +50,12 @@ const Newsletter = () => {
   return (
     <Container>
       <Title>Newsletter</Title>
-      <Des c>Get timely updates from your favorite products.</Des>
+      <Des>Get timely updates from your favorite products.</Des>
       <InputContainer>
         <Input placeholder="Your email" />
-        <But ton>
+        <Button>
           <Send />
-        </But>
+        </Button>
       </InputContainer>
     </Container>
   );
