@@ -38,6 +38,9 @@ const TopButton = styled.button`
   &:hover{
     opacity: 0.8;
 }
+  &:active{
+    opacity: 0.6;
+}
 `;
 
 const TopTexts = styled.div`
@@ -59,12 +62,14 @@ const Bottom = styled.div`
 
 const Info = styled.div`
   flex: 3;
+
 `;
 
 const Product = styled.div`
   display: flex;
   justify-content: space-between;
   ${mobile({ flexDirection: "column" })}
+
 `;
 
 const ProductDetail = styled.div`
@@ -97,6 +102,7 @@ const ProductColor = styled.div`
 const ProductSize = styled.span``;
 
 const PriceDetail = styled.div`
+
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -134,6 +140,7 @@ const Summary = styled.div`
   border-radius: 10px;
   padding: 20px;
   height: 50vh;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 10px 2px 0 rgba(0, 0, 0, 0.19);
 `;
 
 const SummaryTitle = styled.h1`
@@ -164,6 +171,9 @@ const Button = styled.button`
 
   &:hover{
     opacity: 0.8;
+}
+  &:active{
+    opacity: 0.6;
 }
 `;
 
