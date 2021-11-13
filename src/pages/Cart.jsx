@@ -32,6 +32,12 @@ const TopButton = styled.button`
   background-color: ${(props) =>
     props.type === "filled" ? "black" : "transparent"};
   color: ${(props) => props.type === "filled" && "white"};
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover{
+    opacity: 0.8;
+}
 `;
 
 const TopTexts = styled.div`
@@ -47,6 +53,7 @@ const Bottom = styled.div`
   display: flex;
   justify-content: space-between;
   ${mobile({ flexDirection: "column" })}
+
 
 `;
 
@@ -151,6 +158,13 @@ const Button = styled.button`
   background-color: black;
   color: white;
   font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+
+  &:hover{
+    opacity: 0.8;
+}
 `;
 
 const Cart = () => {
