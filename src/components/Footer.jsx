@@ -32,7 +32,7 @@ const SocialContainer = styled.div`
   display: flex;
 `;
 
-const SocialIcon = styled.div`
+const SocialIcon = styled.button`
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -42,6 +42,12 @@ const SocialIcon = styled.div`
   align-items: center;
   justify-content: center;
   margin-right: 20px;
+  border: none;
+  cursor: pointer;
+
+  &:hover{
+    opacity: 0.8;
+}
 `;
 
 const Center = styled.div`
@@ -65,6 +71,7 @@ const List = styled.ul`
 const ListItem = styled.li`
   width: 50%;
   margin-bottom: 10px;
+  cursor: pointer;
 `;
 
 const Right = styled.div`
@@ -90,9 +97,7 @@ const Footer = () => {
       <Left>
         <Logo>Asaxiy</Logo>
         <Desc>
-          There are many variations of passages of Lorem Ipsum available, but
-          the majority have suffered alteration in some form, by injected
-          humour, or randomised words which don’t look even slightly believable.
+        Our goal is to satisfy the apparel needs of online shoppers with plenty of options, a user-friendly site and affordable prices. From cozy fleeces, to casual t-shirts and sweat-wicking athletic wear, Asaxiy has it all.
         </Desc>
         <SocialContainer>
           <SocialIcon color="3B5999">
@@ -127,13 +132,13 @@ const Footer = () => {
       <Right>
         <Title>Contact</Title>
         <ContactItem>
-          <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+          <Room style={{marginRight:"10px"}}/> South Korea, Pusan, Sasang-gu, Jurye-ro 47, Dongseo University
         </ContactItem>
         <ContactItem>
-          <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+          <Phone style={{marginRight:"10px"}}/> +8210 5945 0097
         </ContactItem>
         <ContactItem>
-          <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+          <MailOutline style={{marginRight:"10px"}} /> ziyodovanvar1999@gmail.com
         </ContactItem>
         <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
       </Right>

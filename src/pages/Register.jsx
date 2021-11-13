@@ -19,6 +19,7 @@ const Container = styled.div`
 const Wrapper = styled.div`
   width: 40%;
   padding: 20px;
+  border-radius: 10px;
   background-color: white;
   ${mobile({ width: "75%" })}
 `;
@@ -52,6 +53,15 @@ const Button = styled.button`
   background-color: teal;
   color: white;
   cursor: pointer;
+  border-radius: 5px;
+
+  &:hover{
+    opacity: 0.8;
+}
+  &:active{
+    opacity: 0.6;
+}
+
 `;
 
 const Register = () => {
@@ -68,7 +78,7 @@ const Register = () => {
           <Input placeholder="confirm password" />
           <Agreement>
             By creating an account, I consent to the processing of my personal
-            data in accordance with the <b>PRIVACY POLICY</b>
+            data in accordance with the <b>PRIVACY POLICY</b >
           </Agreement>
           <Button>CREATE</Button>
         </Form>

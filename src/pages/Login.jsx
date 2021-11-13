@@ -48,6 +48,11 @@ const Button = styled.button`
   color: white;
   cursor: pointer;
   margin-bottom: 10px;
+  border-radius: 5px;
+
+  &:hover{
+    opacity: 0.8;
+}
 `;
 
 const Link = styled.a`
@@ -66,7 +71,7 @@ const Login = () => {
           <Input placeholder="username" />
           <Input placeholder="password" />
           <Button>LOGIN</Button>
-          <Link>DO NOT YOU REMEMBER THE PASSWORD?</Link>
+          <Link>FORGOT PASSWORD?</Link>
           <Link>CREATE A NEW ACCOUNT</Link>
         </Form>
       </Wrapper>
