@@ -5,8 +5,9 @@ import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
 
+
 const App = () => {
-  return <Register/>;
+  return <Home/>;
 };
 
 export default App;

@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {mobile} from "../responsive";
 
+
 const Container = styled.div`
   width: 100vw;
   height: 100vh;
@@ -54,7 +55,6 @@ const Button = styled.button`
     opacity: 0.8;
 }
 `;
-
 const Link = styled.a`
   margin: 5px 0px;
   font-size: 12px;
